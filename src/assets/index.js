@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import AJAYLOGO from "./AJAYLOGO.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -29,9 +29,14 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import coindozoscreenshot from './coindozoscreenshot.png'
+import Weatherscreenshot from './Weatherscreenshot.png'
+import renterscreenshot from './renterscreenshot.png'
+import portfolioscreenshot from './portfolioscreenshot.png'
+import tmdbscreenshot from './tmdbscreenshot.png'
+import instaPost12 from './instaPost12.png'
 export {
-  logo,
+  AJAYLOGO,
   backend,
   creator,
   mobile,
@@ -59,4 +64,10 @@ export {
   carrent,
   jobit,
   tripguide,
+  coindozoscreenshot,
+  renterscreenshot,
+  Weatherscreenshot,
+  tmdbscreenshot,
+  portfolioscreenshot,
+  instaPost12,
 };

@@ -23,6 +23,13 @@ import {
   jobit,
   tripguide,
   threejs,
+  coindozoscreenshot,
+  renterscreenshot,
+  Weatherscreenshot,
+  tmdbscreenshot,
+  portfolioscreenshot,
+  instaPost12,
+  // rocketscreenshot,
 } from "../assets";
 
 export const navLinks = [
@@ -46,7 +53,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
@@ -54,7 +61,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Graphic Designer",
     icon: creator,
   },
 ];
@@ -72,10 +79,7 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+   
   {
     name: "React JS",
     icon: reactjs,
@@ -96,10 +100,7 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  
   {
     name: "git",
     icon: git,
@@ -108,10 +109,7 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  
 ];
 
 const experiences = [
@@ -173,41 +171,41 @@ const testimonials = [
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    name: "Harsh Sharma",
+    designation: "CEO",
+    company: "Sheryians Coding School",
+    image: "#",
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    name: "Dhanesh",
+    designation: "Co Founder",
+    company: "Sheryians Coding School",
+    image: "#",
   },
   {
     testimonial:
       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    name: "Adarsh",
+    designation: "Co Founder",
+    company: "Sheryians Coding School",
+    image: "#",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "CoinDozo",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to research about various cryptocurrencies, providing a convenient and efficient solution for crypto research needs.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "redux",
         color: "green-text-gradient",
       },
       {
@@ -215,13 +213,14 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: coindozoscreenshot,
     source_code_link: "https://github.com/",
+    view:"https://63f01f706fb6dd2130fb45f9--cheerychimera-9811f3.netlify.app/"
   },
   {
-    name: "Job IT",
+    name: "The Movie Database",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to search for movies, TV series, daily soaps etc,from various platforms and countries.efficient solution for cinema research needs",
     tags: [
       {
         name: "react",
@@ -232,24 +231,25 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "context_api",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: tmdbscreenshot,
     source_code_link: "https://github.com/",
+    view:"https://lovely-gelato-c44cb9.netlify.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Weather_Forcast",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A comprehensive weather web app that allows users to check weather detail from anywhere anytime,so that users know the weather of popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "nodejs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "ejs",
         color: "green-text-gradient",
       },
       {
@@ -257,8 +257,75 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: Weatherscreenshot,
     source_code_link: "https://github.com/",
+    view:"https://weather-data-nine.vercel.app/",
+  },
+  {
+    name: "Renter",
+    description:
+      "Web-based platform that allows users to search, book, and manage home rentals from various providers,providing a convenient and efficient solution for residential needs.",
+    tags: [
+      {
+        name: "HTML/CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "canvas",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: renterscreenshot,
+    source_code_link: "https://github.com/",
+    view:"https://ajay00559.github.io/RENTER/",
+  },
+  {
+    name: "Rocket_Air",
+    description:
+      "An website to show the potential of web development with great animations and features,in this i have used GSAP & javaScript. it also has an amazing UI & color combinations",
+    tags: [
+      {
+        name: "HTML/CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "GSAP",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: instaPost12,
+    source_code_link: "https://github.com/",
+    view:"https://ajay00559.github.io/Rocket_Air_web/",
+  },
+  {
+    name: "Portfolio",
+    description:
+      "A good looking portfolio of a web developer with all the neccessary informations, and project links. with great animations and features portfolio show the potential of the developer.",
+    tags: [
+      {
+        name: "HTML/CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "GSAP",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: portfolioscreenshot,
+    source_code_link: "https://github.com/",
+    view:"https://ajay00559.github.io/PortFolio-Ajay_Patel/",
   },
 ];
 
